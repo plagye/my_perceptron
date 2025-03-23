@@ -35,7 +35,7 @@ Next, scale the dataset using min-max normalization:
 python min_max_scaling.py
 ```
 
-This will create a scaled version of the dataset (`sample_data_scaled.csv`) and save the scaling parameters for future use.
+This will scale the dataset (`sample_data.csv`) and save the scaling parameters for future use.
 
 ### Step 3: Launch the Flask App
 Finally, start the Flask web application:
