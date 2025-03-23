@@ -8,6 +8,7 @@ This repository contains a Python implementation of Rosenblatt's Perceptron algo
 - Dataset generation with customizable parameters
 - Min-max scaling for feature normalization
 - Interactive prediction interface
+- Visualizing the plane found by the Perceptron using matplotlib for 2D datasets
 
 ## Getting Started
 
