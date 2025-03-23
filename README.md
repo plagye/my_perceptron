@@ -1,6 +1,3 @@
-Here is the Markdown-formatted content for your README.md file:
-
-```markdown
 # Perceptron Implementation in Python
 
 This repository contains a Python implementation of Rosenblatt's Perceptron algorithm with a Flask web interface. The project demonstrates a simple binary classification model that predicts whether someone is a good business partner.
