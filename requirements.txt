@@ -1,0 +1,11 @@
+Flask
+numpy
+pandas
+matplotlib
+scikit-learn
+Werkzeug
+Jinja2
+itsdangerous
+MarkupSafe
+click
+json

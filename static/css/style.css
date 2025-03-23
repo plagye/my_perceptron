@@ -1,0 +1,109 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0a0a0a;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 0 20px #00ff00;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.upload-section, .results-section, .prediction-section {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"], input[type="number"], button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #000;
+}
+
+#results-display, #prediction-result {
+    background-color: rgba(0, 255, 0, 0.1);
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+#feature-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#feature-inputs input {
+    margin: 5px;
+}
+
+.info-text {
+    font-size: 0.8em;
+    color: #00aaff;
+    text-align: center;
+}
+
+.error {
+    color: #ff3366;
+}
+
+.visualization {
+    max-width: 100%;
+    margin-top: 20px;
+    border: 1px solid #00ff00;
+}
+
+#visualization-container {
+    text-align: center;
+}
+
+input[type="text"] {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    width: 60%;
+}
+

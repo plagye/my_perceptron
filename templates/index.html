@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perceptron</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Perceptron</h1>
+        <div class="train-section">
+            <h2>Train Model</h2>
+            <form id="train-form">
+                <input type="text" id="dataset-input" name="dataset_name" placeholder="dataset.csv" value="sample_data.csv">
+                <button type="submit">Train Model</button>
+            </form>
+            <p class="info-text">Place your CSV dataset in the 'data' folder of the project.</p>
+        </div>
+        <div class="results-section">
+            <h2>Training Results</h2>
+            <div id="results-display"></div>
+            <div id="visualization-container"></div>
+        </div>
+        <div class="prediction-section">
+            <h2>Make a Prediction</h2>
+            <form id="prediction-form">
+                <div id="feature-inputs"></div>
+                <button type="submit">Predict</button>
+            </form>
+            <div id="prediction-result"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
