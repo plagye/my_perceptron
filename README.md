@@ -1,10 +1,11 @@
 Perceptron Implementation in Python
-This repository contains a Python implementation of Rosenblatt's Perceptron algorithm with a Flask web interface. The project demonstrates a simple binary classification model that predicts whether someone would be a good business partner based on their capital, monthly savings, and age.
+
+This repository contains a Python implementation of Rosenblatt's Perceptron algorithm with a Flask web interface. The project demonstrates a simple binary classification model that predicts whether someone would be a good business partner based on their capital, monthly savings, and age (given that you use it with the existing dataset. you can modify the generate_dataset script to achieve completely different results)
 
 Features
 Implementation of the Perceptron algorithm from scratch
 
-Flask web application with a cyberpunk-themed UI
+Flask web application with GUI
 
 Dataset generation with customizable parameters
 
