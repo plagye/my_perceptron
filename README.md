@@ -73,3 +73,4 @@ This project is open source and available for educational purposes.
 ## Acknowledgments
 - Frank Rosenblatt for inventing the Perceptron algorithm
 - Flask framework for the web interface
+- Claude 3.7 Sonnet for help
